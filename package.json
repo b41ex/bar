@@ -1,11 +1,11 @@
 {
   "name": "@b41ex/bar",
-  "version": "1.0.1-develop.0",
+  "version": "1.0.1-develop.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@b41ex/foo": "dev"
-  },  
+  },
   "devDependencies": {
     "@b41ex/qubership-apihub-npm-gitflow": "dev"
   },
