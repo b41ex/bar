@@ -2,7 +2,7 @@
   "name": "@b41ex/bar",
   "version": "1.0.1-develop.1",
   "main": "index.js",
-  "license": "MIT",
+  "license": "MIT", 
   "dependencies": {
     "@b41ex/foo": "dev"
   },
