@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "dev"
-  },
+    "@b41ex/foo": "1.1.6"
+  },  
   "devDependencies": {
     "@b41ex/qubership-apihub-npm-gitflow": "dev"
   },
