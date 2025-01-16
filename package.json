@@ -1,13 +1,13 @@
 {
   "name": "@b41ex/bar",
-  "version": "1.0.1-develop.3",
+  "version": "1.0.1-develop.4",
   "main": "dist/bar.cjs.js",
   "module": "dist/bar.esm.js",
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
     "@b41ex/foo": "dev"
-  }, 
+  },
   "devDependencies": {
     "@b41ex/qubership-apihub-npm-gitflow": "dev",
     "@rollup/plugin-commonjs": "^11.0.1",
