@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@b41ex/foo": "dev"
-  },
+  }, 
   "devDependencies": {
     "@b41ex/qubership-apihub-npm-gitflow": "dev",
     "@rollup/plugin-commonjs": "^11.0.1",
