@@ -30,6 +30,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com/'
+          cache: 'npm'
 
       - name: Bump version and commit (prerelease only)
         id: bump_version
@@ -97,6 +98,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com/'
+          cache: 'npm'
       
       - name: Get package name from package.json
         run: |
