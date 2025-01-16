@@ -4,7 +4,7 @@
   "main": "dist/bar.cjs.js",
   "module": "dist/bar.esm.js",
   "browser": "dist/bar.umd.js",
-  "license": "MIT",
+  "license": "MIT", 
   "dependencies": {
     "@b41ex/foo": "dev"
   },
