@@ -1,6 +1,6 @@
 {
   "name": "@b41ex/bar",
-  "version": "1.0.1-develop.7",
+  "version": "1.0.1",
   "main": "dist/bar.cjs.js",
   "module": "dist/bar.esm.js",
   "browser": "dist/bar.umd.js",
@@ -9,7 +9,7 @@
     "@b41ex/foo": "dev"
   },
   "devDependencies": {
-    "@b41ex/qubership-apihub-npm-gitflow": "dev",
+    "@netcracker/qubership-apihub-npm-gitflow": "feature-replace-dev-with-next-dist-tag",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
