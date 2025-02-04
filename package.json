@@ -1,6 +1,6 @@
 {
   "name": "@b41ex/bar",
-  "version": "1.0.7-dev.0",
+  "version": "1.0.7-dev.1",
   "main": "dist/bar.cjs.js",
   "module": "dist/bar.esm.js",
   "browser": "dist/bar.umd.js",
