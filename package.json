@@ -6,7 +6,8 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "dev"
+    "@b41ex/foo": "dev",
+    "@b41ex/qux": "feature-test-14"
   },
   "devDependencies": {
     "@netcracker/qubership-apihub-npm-gitflow": "feature-replace-dev-with-next-dist-tag",
