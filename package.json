@@ -1,15 +1,16 @@
 {
   "name": "@b41ex/bar",
-  "version": "1.0.6",
+  "version": "1.0.7-next.2",
   "main": "dist/bar.cjs.js",
   "module": "dist/bar.esm.js",
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "next"
+    "@b41ex/foo": "2.0.4",
+    "@b41ex/qux": "2.0.4"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "feature-replace-dev-with-next-dist-tag",
+    "@netcracker/qubership-apihub-npm-gitflow": "2.2.0",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
