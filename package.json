@@ -6,11 +6,11 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "2.0.4",
-    "@b41ex/qux": "2.0.4"
+    "@b41ex/foo": "feature-test",
+    "@b41ex/qux": "feature-test"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "2.2.0",
+    "@netcracker/qubership-apihub-npm-gitflow": "2.2.2",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
