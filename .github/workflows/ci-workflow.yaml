@@ -20,15 +20,15 @@ permissions:
 jobs:
   call-frontend-ci-workflow:
     uses: netcracker/qubership-apihub-ci/.github/workflows/frontend-ci.yaml@test/npm-update
-  call-docker-ci-workflow:
-    needs: call-frontend-ci-workflow
-    if: github.event_name == 'push'
-    uses: netcracker/qubership-apihub-ci/.github/workflows/docker-ci.yml@main
-    with:
-      name: qubership-apihub-ui
-      file: Dockerfile
-      context: ""
-      platforms: linux/amd64,linux/arm64
-      labels: |
-        maintainer=qubership
-        npm-package-version=${{ needs.jobs.call-frontend-ci-workflow.outputs.package_version }}
+  # call-docker-ci-workflow:
+  #   needs: call-frontend-ci-workflow
+  #   if: github.event_name == 'push'
+  #   uses: netcracker/qubership-apihub-ci/.github/workflows/docker-ci.yml@main
+  #   with:
+  #     name: qubership-apihub-ui
+  #     file: Dockerfile
+  #     context: ""
+  #     platforms: linux/amd64,linux/arm64
+  #     labels: |
+  #       maintainer=qubership
+  #       npm-package-version=${{ needs.jobs.call-frontend-ci-workflow.outputs.package_version }}
