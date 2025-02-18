@@ -6,8 +6,8 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "next",
-    "@b41ex/qux": "next"
+    "@b41ex/foo": "2.0.9",
+    "@b41ex/qux": "2.0.9"
   },
   "devDependencies": {
     "@netcracker/qubership-apihub-npm-gitflow": "feature-refactor-git-usage",
