@@ -6,11 +6,11 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "dev",
+    "@b41ex/foo": "bugfix-my-bugfix",
     "@b41ex/qux": "dev"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "feature-refactor-git-usage",
+    "@netcracker/qubership-apihub-npm-gitflow": "dev",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
@@ -18,8 +18,13 @@
   "scripts": {
     "feature-start": "feature-start --featureName",
     "feature-finish": "feature-finish",
+    "bugfix-start": "bugfix-start --bugfixName",
+    "bugfix-finish": "bugfix-finish",
     "release-start": "release-start",
     "release-finish": "release-finish",
+    "hotfix-start": "hotfix-start",
+    "hotfix-finish": "hotfix-finish",
+    "update-lock-file": "update-lock-file @b41ex",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
