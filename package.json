@@ -6,16 +6,16 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "bugfix-test-bugfix-scripts",
+    "@b41ex/foo": "dev",
     "@b41ex/qux": "dev"
   },
   "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "feature-message-required-for-squash",
+    "@netcracker/qubership-apihub-npm-gitflow": "dev",
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
   },
-  "scripts": {    
+  "scripts": {
     "update-lock-file": "update-lock-file @b41ex",
     "build": "rollup -c",
     "dev": "rollup -c -w"
