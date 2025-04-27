@@ -6,8 +6,8 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "next",
-    "@b41ex/qux": "next"
+    "@b41ex/foo": "2.0.12",
+    "@b41ex/qux": "2.0.12"
   },
   "devDependencies": {
     "@netcracker/qubership-apihub-npm-gitflow": "3.0.1",
