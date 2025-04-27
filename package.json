@@ -6,7 +6,7 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "dev",
+    "@b41ex/foo": "feature-lock-not-updated",
     "@b41ex/qux": "dev"
   },
   "devDependencies": {
