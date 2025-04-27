@@ -6,7 +6,7 @@
   "browser": "dist/bar.umd.js",
   "license": "MIT",
   "dependencies": {
-    "@b41ex/foo": "bugfix-test-bugfix-scripts",
+    "@b41ex/foo": "dev",
     "@b41ex/qux": "dev"
   },
   "devDependencies": {
